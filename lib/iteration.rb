@@ -41,7 +41,7 @@ def total_even_pairs(bink)
   row_index = 0
   while row_index < bink.count do
     inner_arr = bink[row_index]
-    if inner_arr[0] % 2 = 0 == inner_arr[1] % 2 = 0
+    if inner_arr[0]%2= 0 == inner_arr[1]%2= 0
       total += inner_arr[0] + inner_arr[1]
     end
     row_index += 1
